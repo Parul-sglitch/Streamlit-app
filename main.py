@@ -5,7 +5,7 @@ import pp1,pp2,pp3,pp4,pp5
 def main():
     col1,col2=st.beta_columns([1,2])
     with col1:
-        img = Image.open("C:/Users/PARUL KUMARI/Desktop/project/rig.jpeg")
+        img = Image.open("https://github.com/Parul-sglitch/Streamlit-app/blob/main/rig.jpeg")
         st.image(img, width=200)    
     with col2:
         st.title("Original Oil In Place & Recovery Factor Calculation")
