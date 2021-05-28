@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
-from apps import pp1,pp2,pp3,pp4,pp5
+import pp1,pp2,pp3,pp4,pp5
 def main():
     col1,col2=st.beta_columns([1,2])
     with col1:
