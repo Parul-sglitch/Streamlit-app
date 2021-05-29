@@ -158,7 +158,7 @@ def app4():
         st.write(n)
         st.subheader('Recovery factor for Solution gas drive reservoir (below bubble point pressure) :')
         st.write(r)
-def app():
+def app5():
     def combination_drive(bo,gp,np,rs,bg,we,wp,bw,boi,rsi,m,bgi):
         boi=float(boi)
         bo=float(bo)
