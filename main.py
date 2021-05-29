@@ -207,7 +207,7 @@ def app5():
 def main():
     col1,col2=st.beta_columns([1,2])
     with col1:
-        img = Image.open("https://github.com/Parul-sglitch/Streamlit-app/blob/main/rig.jpeg")
+        img = Image.open("rig.jpeg")
         st.image(img, width=200)    
     with col2:
         st.title("Original Oil In Place & Recovery Factor Calculation")
