@@ -223,4 +223,5 @@ def main():
         app4()
     elif status=='Combination drive reservoir':
         app5()
-main()
+if __name__ == "__main__":
+    main()
