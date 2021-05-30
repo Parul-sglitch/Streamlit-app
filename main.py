@@ -14,7 +14,7 @@ def app1():
         n=np/rf
         return rf,n
     st.title("""
-    Enter Input Values
+    Enter Input Values for Solution Gas Drive Reservoir (above bubble point)
     
     (Common assumptions for solution gas drive(above bubble point):- m=0, We=0, Ginj=Winj=0)
     """)
@@ -51,7 +51,7 @@ def app2():
         n=np/rf
         return rf,n
     st.title("""
-    Enter Input Values
+    Enter Input Values for Solution Gas Drive (below bubble point)
     
     (Common assumptions for solution gas drive(below bubble point):- m=0, We=0, Ginj=Winj=0, Change in pore volume is neglected.)
     """)
@@ -92,7 +92,7 @@ def app3():
         n=np/rf
         return rf,n
     st.title("""
-    Enter Input Values
+    Enter Input Values Gas Cap Drive Reservoir
     
     (Common assumptions for gas cap drive:- Ginj=Winj=0, Change in pore volume is neglected.)
     """)
@@ -133,7 +133,7 @@ def app4():
         rf=np/n
         return rf,n
     st.title("""
-    Enter Input Values
+    Enter Input Values for Water Drive Reservoir
     
     (Common assumptions for water drive:- m=0, Ginj=Winj=0, Change in pore volume is neglected.)
     """)
@@ -177,7 +177,7 @@ def app5():
         rf=np/n
         return rf,n
     st.title("""
-    Enter Input Values
+    Enter Input Values for Combination Drive Reservoir
     
     (Common assumptions for combination drive:- Ginj=Winj=0, Change in pore volume is neglected.)
     """) 
